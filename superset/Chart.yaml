@@ -33,9 +33,9 @@ version: 0.7.7
 dependencies:
   - name: postgresql
     version: 12.1.6
-    repository: file://../postgresql
+    repository: http://179.100.1.2:32000/repository/postgresql
     condition: postgresql.enabled
   - name: redis
     version: 17.4.0
-    repository: file://../redis
+    repository: http://179.100.1.2:32000/repository/redis
     condition: redis.enabled
